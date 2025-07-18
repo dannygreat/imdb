@@ -7,7 +7,7 @@
 
 ## How to run tests
 
-#### Locally - GoBubble UI tests:
+#### Locally UI tests:
 ```
 npx playwright test ./tests/spec/*.spec.ts
 or
