@@ -18,7 +18,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     baseURL: 'https://www.imdb.com',
-    headless: true,
+    headless: false,
     video: 'retain-on-failure',
     screenshot: 'only-on-failure',
     trace: 'on-first-retry',
