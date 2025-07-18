@@ -7,7 +7,7 @@ export class Top250Page extends BasePage {
 
     async waitForLoaded() {
         await this.top250Link.click();
-        await this.page.waitForLoadState('networkidle');
+        await this.waitForLoadState();
     }
 
     async clickFirstMovie() {
@@ -16,7 +16,4 @@ export class Top250Page extends BasePage {
             .locator('a.ipc-lockup-overlay')
             .click();
     }
-
-    // await this.page.getByRole('link', { name: /^Inception$/ }).click();
-
 }

@@ -7,7 +7,7 @@ export class BasePage {
         this.page = page;
     }
 
-    async waitForLoadState(_paramState: string): Promise<void> {
+    async waitForLoadState(): Promise<void> {
         await this.page.waitForLoadState('domcontentloaded');
     }
 }
