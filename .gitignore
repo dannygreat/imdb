@@ -1,0 +1,10 @@
+
+# Playwright Artifact files
+.vscode
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.DS_Store
+package-lock.json

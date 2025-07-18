@@ -1,0 +1,22 @@
+{
+  "name": "imdb",
+  "version": "1.0.0",
+  "description": "framework",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannygreat/imdb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannygreat/imdb/issues"
+  },
+  "homepage": "https://github.com/dannygreat/imdb#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14"
+  }
+}
